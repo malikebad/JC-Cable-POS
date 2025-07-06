@@ -1,0 +1,256 @@
+C:\Users\dell\source\repos\Shop Management  System\bin\Debug\Shop Management  System.exe.config
+C:\Users\dell\source\repos\Shop Management  System\bin\Debug\Shop Management  System.exe
+C:\Users\dell\source\repos\Shop Management  System\bin\Debug\Shop Management  System.pdb
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop Management  System.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop Management  System.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.Properties.Resources.resources
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop Management  System.csproj.GenerateResource.cache
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop Management  System.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop Management  System.exe
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop Management  System.pdb
+C:\Users\dell\source\repos\Shop Management  System\bin\Debug\Guna.UI2.dll
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop Management  System.csproj.CopyComplete
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.login.resources
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.dashboard.resources
+C:\Users\dell\source\repos\Shop Management  System\bin\Debug\CircularProgressBar.dll
+C:\Users\dell\source\repos\Shop Management  System\bin\Debug\WinFormAnimation.dll
+C:\Users\dell\source\repos\Shop Management  System\bin\Debug\CircularProgressBar.xml
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.dashForm.resources
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.about.resources
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.Additem.resources
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.Customer.resources
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.Employee.resources
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.supplier.resources
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.EmployeeDashboard.resources
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.PlaceOrder.resources
+C:\Users\dell\source\repos\Shop Management  System\bin\Debug\Guna.Charts.WinForms.dll
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.viewOrder.resources
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop_Management__System.dataHistory.resources
+C:\Users\dell\source\repos\Shop Management  System\bin\Debug\Shop Management  System.exe.manifest
+C:\Users\dell\source\repos\Shop Management  System\bin\Debug\Shop Management  System.application
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop Management  System.exe.manifest
+C:\Users\dell\source\repos\Shop Management  System\obj\Debug\Shop Management  System.application
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop Management  System.csproj.AssemblyReference.cache
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.about.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.Additem.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.dataHistory.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.Customer.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.dashboard.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.dashForm.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.Employee.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.EmployeeDashboard.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.login.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.PlaceOrder.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.Properties.Resources.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.supplier.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop_Management__System.viewOrder.resources
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop Management  System.csproj.GenerateResource.cache
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop Management  System.csproj.CoreCompileInputs.cache
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop Management  System.exe
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop Management  System.pdb
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\Shop Management  System.exe.config
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\Shop Management  System.exe.manifest
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\Shop Management  System.application
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\Shop Management  System.exe
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\Shop Management  System.pdb
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\CircularProgressBar.dll
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\Guna.Charts.WinForms.dll
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\Guna.UI2.dll
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\WinFormAnimation.dll
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\CircularProgressBar.xml
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop Management  System.exe.manifest
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop Management  System.application
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\obj\Debug\Shop Man.5435D9D4.Up2Date
+C:\Users\Junaid Ali\Documents\GitHub\Shop-Management-System\bin\Debug\Guna.Charts.WinForms.xml
+D:\Shop-Management-System-main\bin\Debug\Shop Management  System.exe.config
+D:\Shop-Management-System-main\bin\Debug\Shop Management  System.exe.manifest
+D:\Shop-Management-System-main\bin\Debug\Shop Management  System.application
+D:\Shop-Management-System-main\bin\Debug\Shop Management  System.exe
+D:\Shop-Management-System-main\bin\Debug\Shop Management  System.pdb
+D:\Shop-Management-System-main\bin\Debug\CircularProgressBar.dll
+D:\Shop-Management-System-main\bin\Debug\Guna.Charts.WinForms.dll
+D:\Shop-Management-System-main\bin\Debug\Guna.UI2.dll
+D:\Shop-Management-System-main\bin\Debug\WinFormAnimation.dll
+D:\Shop-Management-System-main\bin\Debug\CircularProgressBar.xml
+D:\Shop-Management-System-main\bin\Debug\Guna.Charts.WinForms.xml
+D:\Shop-Management-System-main\obj\Debug\Shop Management  System.csproj.AssemblyReference.cache
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.Additem.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.dataHistory.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.Customer.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.dashboard.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.dashForm.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.Employee.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.EmployeeDashboard.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.login.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.PlaceOrder.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.Properties.Resources.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.supplier.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.viewOrder.resources
+D:\Shop-Management-System-main\obj\Debug\Shop Management  System.csproj.GenerateResource.cache
+D:\Shop-Management-System-main\obj\Debug\Shop Management  System.csproj.CoreCompileInputs.cache
+D:\Shop-Management-System-main\obj\Debug\Shop Management  System.exe.manifest
+D:\Shop-Management-System-main\obj\Debug\Shop Management  System.application
+D:\Shop-Management-System-main\obj\Debug\Shop Man.5435D9D4.Up2Date
+D:\Shop-Management-System-main\obj\Debug\Shop Management  System.exe
+D:\Shop-Management-System-main\obj\Debug\Shop Management  System.pdb
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.Form1.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.QuickSaleForm.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.QuotationForm2.resources
+D:\Shop-Management-System-main\obj\Debug\Shop_Management__System.ReportSales.resources
+D:\Shop-Management-System-main\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Shop-Management-System-main\bin\Debug\itextsharp.dll
+D:\Shop-Management-System-main\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Shop-Management-System-main\bin\Debug\itextsharp.xml
+D:\Shop-Management-System-main\bin\Debug\ClosedXML.dll
+D:\Shop-Management-System-main\bin\Debug\ClosedXML.Parser.dll
+D:\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\Shop-Management-System-main\bin\Debug\ExcelNumberFormat.dll
+D:\Shop-Management-System-main\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Shop-Management-System-main\bin\Debug\RBush.dll
+D:\Shop-Management-System-main\bin\Debug\SixLabors.Fonts.dll
+D:\Shop-Management-System-main\bin\Debug\System.Buffers.dll
+D:\Shop-Management-System-main\bin\Debug\System.Memory.dll
+D:\Shop-Management-System-main\bin\Debug\System.Numerics.Vectors.dll
+D:\Shop-Management-System-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Shop-Management-System-main\bin\Debug\ClosedXML.pdb
+D:\Shop-Management-System-main\bin\Debug\ClosedXML.xml
+D:\Shop-Management-System-main\bin\Debug\ClosedXML.Parser.xml
+D:\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\Shop-Management-System-main\bin\Debug\ExcelNumberFormat.xml
+D:\Shop-Management-System-main\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Shop-Management-System-main\bin\Debug\RBush.xml
+D:\Shop-Management-System-main\bin\Debug\SixLabors.Fonts.xml
+D:\Shop-Management-System-main\bin\Debug\System.Buffers.xml
+D:\Shop-Management-System-main\bin\Debug\System.Memory.xml
+D:\Shop-Management-System-main\bin\Debug\System.Numerics.Vectors.xml
+D:\Shop-Management-System-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\Shop Management  System.exe.config
+D:\New folder\Shop-Management-System-main\bin\Debug\Shop Management  System.exe.manifest
+D:\New folder\Shop-Management-System-main\bin\Debug\Shop Management  System.application
+D:\New folder\Shop-Management-System-main\bin\Debug\Shop Management  System.exe
+D:\New folder\Shop-Management-System-main\bin\Debug\Shop Management  System.pdb
+D:\New folder\Shop-Management-System-main\bin\Debug\BouncyCastle.Cryptography.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\CircularProgressBar.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\ClosedXML.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\ClosedXML.Parser.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\ExcelNumberFormat.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\Guna.Charts.WinForms.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\Guna.UI2.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\itextsharp.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\RBush.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\SixLabors.Fonts.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\System.Buffers.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\System.Memory.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\System.Numerics.Vectors.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\WinFormAnimation.dll
+D:\New folder\Shop-Management-System-main\bin\Debug\BouncyCastle.Cryptography.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\CircularProgressBar.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\ClosedXML.pdb
+D:\New folder\Shop-Management-System-main\bin\Debug\ClosedXML.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\ClosedXML.Parser.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\ExcelNumberFormat.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\Guna.Charts.WinForms.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\itextsharp.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\RBush.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\SixLabors.Fonts.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\System.Buffers.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\System.Memory.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\System.Numerics.Vectors.xml
+D:\New folder\Shop-Management-System-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop Management  System.csproj.AssemblyReference.cache
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.Additem.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.dataHistory.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.Customer.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.dashboard.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.dashForm.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.Employee.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.EmployeeDashboard.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.Form1.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.login.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.PlaceOrder.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.Properties.Resources.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.QuickSaleForm.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.QuotationForm2.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.ReportSales.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.supplier.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop_Management__System.viewOrder.resources
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop Management  System.csproj.GenerateResource.cache
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop Management  System.csproj.CoreCompileInputs.cache
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop Management  System.exe.manifest
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop Management  System.application
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop Man.5435D9D4.Up2Date
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop Management  System.exe
+D:\New folder\Shop-Management-System-main\obj\Debug\Shop Management  System.pdb
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\Shop Management  System.exe.config
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\Shop Management  System.exe.manifest
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\Shop Management  System.application
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\Shop Management  System.exe
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\Shop Management  System.pdb
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\CircularProgressBar.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\ClosedXML.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\ClosedXML.Parser.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\ExcelNumberFormat.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\Guna.Charts.WinForms.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\Guna.UI2.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\itextsharp.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\RBush.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\SixLabors.Fonts.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\System.Buffers.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\System.Memory.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\WinFormAnimation.dll
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\CircularProgressBar.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\ClosedXML.pdb
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\ClosedXML.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\ClosedXML.Parser.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\ExcelNumberFormat.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\Guna.Charts.WinForms.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\itextsharp.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\RBush.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\SixLabors.Fonts.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\System.Buffers.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\System.Memory.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop Management  System.csproj.AssemblyReference.cache
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.Additem.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.dataHistory.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.Customer.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.dashboard.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.dashForm.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.Employee.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.EmployeeDashboard.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.Form1.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.login.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.PlaceOrder.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.Properties.Resources.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.QuickSaleForm.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.QuotationForm2.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.ReportSales.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.supplier.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop_Management__System.viewOrder.resources
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop Management  System.csproj.GenerateResource.cache
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop Management  System.csproj.CoreCompileInputs.cache
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop Management  System.exe.manifest
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop Management  System.application
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop Man.5435D9D4.Up2Date
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop Management  System.exe
+C:\Users\JC Cable\Downloads\Shop-Management-System-main\Shop-Management-System-main\obj\Debug\Shop Management  System.pdb

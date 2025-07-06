@@ -1,0 +1,2120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Shop Management  System.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Shop Management  System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Shop Management  System.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BouncyCastle.Cryptography.dll" size="6867224">
+      <assemblyIdentity name="BouncyCastle.Cryptography" version="2.0.0.0" publicKeyToken="072EDCF4A5328938" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rsInFU/FSXOf9aB5IHI2QfdzzmXQXcpwshUYPJPpZB0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.52.dll" size="225798">
+      <assemblyIdentity name="Bunifu_UI_v1.52" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GxO5O4x78dmcgfTdTEexY5ibjwbuBjh4WnqYqmZjkkI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CircularProgressBar.dll" size="17412">
+      <assemblyIdentity name="CircularProgressBar" version="2.8.0.16" publicKeyToken="310FD07B25DF79B3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xQtiuwIgyVG292TpY8YdjcaxIavItA0KBJge5EQvBxo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClosedXML.dll" size="1631232">
+      <assemblyIdentity name="ClosedXML" version="0.104.2.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Jh10USEuI9zEU2/lvC6PcJB7QdArbU3CPEPY4cXLV/4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClosedXML.Parser.dll" size="188416">
+      <assemblyIdentity name="ClosedXML.Parser" version="1.0.0.0" publicKeyToken="1D5F7376574C51EC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QXc/XxpZ4O21iweqRiSFJTzTLmiGbadpCgzARGW6/rE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DocumentFormat.OpenXml.dll" size="6351712">
+      <assemblyIdentity name="DocumentFormat.OpenXml" version="3.1.1.0" publicKeyToken="8FB06CB64D019A17" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>u2qYjcyNwcc/PK7M/urGPUT6rAUdqKhJRmSkxp0XQgA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DocumentFormat.OpenXml.Framework.dll" size="476000">
+      <assemblyIdentity name="DocumentFormat.OpenXml.Framework" version="3.1.1.0" publicKeyToken="8FB06CB64D019A17" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0i7YBEyz9QtgjN9tKwtStHdSSofO3uPp/tMyxTHi6nk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExcelNumberFormat.dll" size="30208">
+      <assemblyIdentity name="ExcelNumberFormat" version="1.1.0.0" publicKeyToken="23C6F5D73BE07ECA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>A8zHGkKDMQLvVK6ezznZ1iwEkcFzWao30dLvDsc5fQQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.Charts.WinForms.dll" size="567180">
+      <assemblyIdentity name="Guna.Charts.WinForms" version="1.0.9.0" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mU9sYBFl7+GQ3xjrW2ouJEQNrCVsXzCTUG1BaEV34yI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2190724">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.7" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tFWGYCIqb4S+5WVfmlV9kUychegzMfS7jJ1qETee/z8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="2592768">
+      <assemblyIdentity name="itextsharp" version="5.5.13.4" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>K31q/P+F9Sm5aL/s2KHzVhIoG5E8m0UEaTMe3SBRwQk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Bcl.HashCode.dll" size="23424">
+      <assemblyIdentity name="Microsoft.Bcl.HashCode" version="1.0.0.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>drEmDOdHoxfptRRDO4moGwOEEfyr3cb5x9ursHQti4E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RBush.dll" size="59392">
+      <assemblyIdentity name="RBush" version="4.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bDnAKKeAF7icREYVkz/B0NEmXaeyevRd3VuP9CKKyTg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Shop Management  System.exe" size="821760">
+      <assemblyIdentity name="Shop Management  System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>T7tIqjYYJ2Dq7Knq+VNsSgEIOrkI1jTNjV+mBCr0FM8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SixLabors.Fonts.dll" size="1142272">
+      <assemblyIdentity name="SixLabors.Fonts" version="1.0.0.0" publicKeyToken="D998EEA7B14CAB13" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PYEdHDeh8OF/Nl8AYDAp61PiQFJlN+LNmf5CJ6q/Nqo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Buffers.dll" size="20856">
+      <assemblyIdentity name="System.Buffers" version="4.0.3.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rMzPvkXZ8I/+7ZkW43sz6YxlvgEs//bn+ntnIQzh/vs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Memory.dll" size="141184">
+      <assemblyIdentity name="System.Memory" version="4.0.1.1" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jnYxjosGaSq/fasRadJ9FVV/fwo002r2Rj7/D+ISE8c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Numerics.Vectors.dll" size="115856">
+      <assemblyIdentity name="System.Numerics.Vectors" version="4.1.4.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HT74aYKB589zcdFVSv71hys5+Wwm2nciEKM9oEG6EYM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Runtime.CompilerServices.Unsafe.dll" size="16968">
+      <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" version="4.0.6.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ktU13RZTJQ2mYsOluSlDyAMGURdsgaUJzXTitL7CbP8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WinFormAnimation.dll" size="38402">
+      <assemblyIdentity name="WinFormAnimation" version="1.6.0.4" publicKeyToken="310FD07B25DF79B3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>riZNF2pV7WC9FDj51l4MezSkDC0k10LMbEiXo+QNSo4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Scripts\jquery-3.7.1.intellisense.js" size="159648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pexltKWqHMwK31/zD9Ip8vo1Fv6W4ZuDhFAU572zPEM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\jquery-3.7.1.js" size="285316">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5FWR8Si4Br0THdMMNjhYdQUCzdgUN6oJsv/Z7t4kFBg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\jquery-3.7.1.min.js" size="87535">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CVqgpSQGLI0Om4BWkT7s7falKE7XdBiKhm7tCUMdzKY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\jquery-3.7.1.slim.js" size="232017">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>K6j9xRdewYr0AfmZEjYyJuApBsUT99h0wl+tOPreQ1c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\jquery-3.7.1.slim.min.js" size="70266">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6e3smHcYPcaOg8Rwf5UYWPiNMMLVcfHYWkYBkKel0wo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.nl.min.js" size="1608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ywPyPq/Tx0O1L7sOuFEK6zZeB6Ii+wxlE2Wd65jA2bE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.nn.min.js" size="1606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hRgLvFgW+jqkeEVT0gI2+kVH05D/c/Uvsn8B9JHReUc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.nn-NO.min.js" size="1615">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>G4cP9g9AE9sk6G57y0KnlVyTS3Z0eb0g6wFRucSzdng=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.no.min.js" size="1606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Xd++QWRLbZi3atn6Ajj1NjmT7pT/y+nvymfUFdjZU1Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.nso.min.js" size="1683">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IfEKejv07AyejADqciXqPOV6IqVfSpHrO6eE7XmZiRE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.nso-ZA.min.js" size="1692">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a89vdo16hYvJDrey3w2+/9w9c5R9Vso5xKuyZEbTsxM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.oc.min.js" size="1665">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>87A+MR4fB5RbvwC+ue/zZwQ+uRpIaVyDxV7awtgX3is=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.oc-FR.min.js" size="1674">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qZUWcErXkP2m+SFhTQWQ0uCaP4BieUWkeqJwX/BbxpE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.or.min.js" size="2207">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xkfSbnIqo3MqoP9cYNxS9TlUwhevkVVDDv/xXFxu+rA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.or-IN.min.js" size="2216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ootuShk1mL0bnOhUn2mH0NuzJVG5yKdiJlzaA1TlJU8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.pa.min.js" size="2104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VXCnruBl1hRXs4nDh3xsA8+2VYN2ho2ET+wQovC+xwU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.pa-IN.min.js" size="2113">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5jzRWnCA6RDQPpz2YWNEOistJVds/EQqEHbeQ2yUOt4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.pl.min.js" size="1627">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8jjv1MPwkbirqRrITNzB26SW8eTCGz3TyXjeMYLRdKk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.pl-PL.min.js" size="1636">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dKSW0cgah857KyvygEyhw0zKyMuzIBHYGA0kqKW9vaM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.prs.min.js" size="2002">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bFrDMiHUNLyRMZu8NOJZFHlnVfvh6nW5f0vCnVUUQ4k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.prs-AF.min.js" size="2011">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BR9nILvMzGVlBaWfb+9kxKVUrDCY5TyVOxAy1k8Bf4A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ps.min.js" size="2004">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YZeUP1o2BaUxLMX2CoUksoNquKe9bky3MR5j23w+EGw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ps-AF.min.js" size="2013">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TE3kGTHIyRliSKscWZqFvpe21FzQEzC+FGcqm/vP09I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.pt.min.js" size="1683">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1eXz3azp8CxUGcqt374ZgovyqOJCpuVr9Dazqr/by34=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.pt-BR.min.js" size="1692">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dqahm5+I+QSSiWNIa5zVyZtYoF5hRlWUrV2UUx+F3aY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.pt-PT.min.js" size="1675">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g3p5o3TAHXD2/hD5Lvipp7ZNFd0CyYy1H8/PhtmP+zo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.qut.min.js" size="1762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/OwEn7YCa5Zzs+uh3vphecS5//zI4kwtqkpzv/EsEbU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.qut-GT.min.js" size="1771">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RjBQIH/X5uHhuW7TOSDVhQCecoCO5sdVpOwZ+HcsvnY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.quz.min.js" size="1762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7h/65811skHaNdgpdMZmvks91a90/wJQUsIWUbvYHB8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.quz-BO.min.js" size="1771">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+94KShgZXXBiI13Nua0R/UuBto9KH/PFXvYVxlJfgcY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.quz-EC.min.js" size="1714">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vGyLCMT6LA/aDsihg21bIsVsSJ5xyntIo84ig8iEGQA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.quz-PE.min.js" size="1771">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5HjOHcAA0ocNuhPHLLkIhKD1GCHzfSjRVJgaBKnrFeY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.rm.min.js" size="1633">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Pf61naQ/yBk9kgkXXnFvEw6fLRRTK3lLuqZIK9XC1yc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.rm-CH.min.js" size="1642">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/emHCV9gpFLt5zRFsbCraIvkhwgMMHjQukgihrXIFNc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ro.min.js" size="1611">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Mq/W2GliA6OIzDKQ3GgxRaeLQDKxTPaubrHHjz/R6d4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ro-RO.min.js" size="1620">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tED9rR8/sd6PguN/wOg8RwjBfinsAS2F0Hq3v5R+DKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ru.min.js" size="1797">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sf19ZWB26gzXnm3V9oOb4+R3Uk/uYylGShqhuxDBfco=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ru-RU.min.js" size="1806">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jKzUP+DR2r+yTW+nO4j2JzcaLO45VQCjWSEVtuguINQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ru-UA.min.js" size="1806">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dzqMp+BNkv+mu2AdhzlgnWOM4ygtAElg8HDUVYNXfSM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.rw.min.js" size="1781">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MZG6/xS3IWV7/jB0GE8UsGf3NEcj9L+Lv/dp64Guipc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.rw-RW.min.js" size="1790">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gJUy4LssDKoTXBfDkod1MzyYXUCIu9mNHravg5xjXy4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sa.min.js" size="2361">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>H5HR/T5qTlhgb3dVRtOtviPAXEQq9gqYmcps40BiFFA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sah.min.js" size="1894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CNbpfg3ui4RGtRu5RaPE7SMqGU47L3tiFy1cx1y+U1E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sah-RU.min.js" size="1903">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/ps7Xmef1vipwwaR8+J7wszlsro7rx/w5gkUlij4foM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sa-IN.min.js" size="2370">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ATtQdHBsvsVItL0O35b4IUqynA8M9uMZZ9NfSoOuVdU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.se.min.js" size="1753">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JJXQZmfFtmP16rs8tKPmeZlQ16XBCUu79iAuw6u+DNU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.se-FI.min.js" size="1754">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J2+c1XrpU2g4jnIrnjoNfhZ3ssX/BYOJXAT/O+MbJFQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.se-NO.min.js" size="1762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KnSMoPt9O7GhzY55beko71qSHDKEdLJ/+l8lY07A2Bo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.se-SE.min.js" size="1754">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QGMlqeIBv0SqD+T+jCPUvzc9/oxGNgAtOwa8y1Wi1Y4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.si.min.js" size="2306">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DbRCPDW4cIUBR4F4TlfFkKUJ3t3CQSDKjgSbcdKxN/4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.si-LK.min.js" size="2315">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pyeGHCGI9yz/UTgjIoeWXqyf/bR+OgSot7OIL3N131M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sk.min.js" size="1585">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+3Jfe8PWCnQi8/RenGF2lZguHPvb4h/iRQApEzDcIv0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sk-SK.min.js" size="1594">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sJLCBhy2SMcBGGFSvNWbVNxC5fG9qKOnLzvACC/UjMo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sl.min.js" size="1599">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZBUqwWj32ekRzJXQ2KJE6LlCAYJF8vnLe1ql3VSTWx8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sl-SI.min.js" size="1608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qId6jwGtupCWA+IEPPEf4fO3KlWB4/oxrzKu6jLJRkg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sma.min.js" size="1681">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Fm60zZIXQ/EJK1kgSqANa+BD3jK2T3Gyy3ViRlL6NMo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sma-NO.min.js" size="1689">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SA4jZfqB9TGlYXOXWk4TvqS983DZbJbtIdU337oKNN0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sma-SE.min.js" size="1690">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mBcdDHWeja1IGOFZDj3GaB4wdx2DG4E7oKD1pFMIdvg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.smj.min.js" size="1770">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4wUW7b1DIRawBIYUWyBcAcwH64e04iQIbnt361NP+kU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.smj-NO.min.js" size="1784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cxJG0A/Flh7mn7gykzwOiPH+RGR3GJZeB3owfGbiM/g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.smj-SE.min.js" size="1779">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PCx9FpLgOQwVj6lf3hsqnlN5ha157weondDrNc+1AIA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.smn.min.js" size="1744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3GMpFf9WW5xArjnZF5CSNVMa9uPj4in2IGLihBylSnU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.smn-FI.min.js" size="1753">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tF5t9B/Ihm5CIsMu58RqCFkIPrkLNf9XcJrn8C/N590=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sms.min.js" size="1763">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vK0Q+GNQ9QCmXvPjDj3o/RD+flUGDqboMiQg1VRWSoY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sms-FI.min.js" size="1772">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s5bUHLh8XFX7KGwI6orPAdtnqHAeoAy4qUxBC3yt4Y4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sq.min.js" size="1643">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qD2phx1Qv7c08wW+27dswQ+XXkbS+qlt1QUlqgIdkk0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sq-AL.min.js" size="1652">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>03GRmD9hEKmsYXP+RQtyvqVIs/WIm6mRAGYag3FA04E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr.min.js" size="1597">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AYhXzIYgVMuxaT6uu+t8GT+GdWkGNxg4QdIe9qIr4+s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr-Cyrl.min.js" size="1793">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wnKvw18tFrOXZJQQI2qnAh9HSIMJSAFU8UvB5xjrSAs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr-Cyrl-BA.min.js" size="1786">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VfKEYUv4EMVsO1Z+JS11taJNp6vJxgMPUR/44NUz044=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr-Cyrl-CS.min.js" size="1799">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kdprd8LK53pRqPVQhTYC+ISqa8dbonJpxAMezxBZxQY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr-Cyrl-ME.min.js" size="1799">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Qgha31l+9qdSJdmzox7uXYO9Hq9CxEam27U5uR69k0c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr-Cyrl-RS.min.js" size="1799">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/jJCL86EyxW7KY8FhHK2raX3KWTHXE6JYGQp0edlAC8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr-Latn.min.js" size="1610">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CGoMiUtwgFwe4wr2FqOTPskq9O+yl/+UmyY+uoe2t2Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr-Latn-BA.min.js" size="1616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z2ueUZPlTm2LhF5eoaTn6+wBwm45zhKeL7gQAGhVS/I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr-Latn-CS.min.js" size="1616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z5GwhBq0ZAikHMRD8Mx1OjLvmoErcho+zPgd30pMXlw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr-Latn-ME.min.js" size="1620">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OpiVcwMDiWyhIdpVZUQ4lx5nHBDI7nVhGx6J6ObpaTA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sr-Latn-RS.min.js" size="1616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>izt05/ODd8SYmihjmbiQIWRoBBVv/XNYcBfvDPrON8Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sv.min.js" size="1630">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9zB/mcx6IMiHSuUFgAjASWGpEOIZd3lmZ8FwfZ4azUE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sv-FI.min.js" size="1635">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UmE2fySd/X7WMz9Vt8VTz8XAsX2nUCJKAxIXm4RVOYY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sv-SE.min.js" size="1639">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NqXxncA6bRksRZD7nPManFSsXGRRWXvstUu9+sLVG1U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sw.min.js" size="1666">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Kqvu1D/Eus9tz+p9KtVjTOvr/bbzbmKwy/faB4lVamM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.sw-KE.min.js" size="1675">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EuatFntZzPvlZjJgFRf2+n4k0iMVGQ/pSkE3BX9dYg4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.syr.min.js" size="1921">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I8EVsNGZONaxWOdJcXuRoDShezogPBG1F3nxhFyfqOA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.syr-SY.min.js" size="1930">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lo2p6+FOLc+3KLRl8jUzrkwZFpAnV0Eywi/wto1dY2s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ta.min.js" size="2376">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0260jWDN+KtpKR7P5Ni/H67NWGHsSDUK4hjHKtZ++zw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ta-IN.min.js" size="2385">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gtJ3CfZqs5kErZOg7fZZiss1GEdv4g2XKP1gE/7bh2s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.te.min.js" size="2301">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>//0hrGdliN8QiWP0MLkxbhUNVe2DZc1zwCK+bpXECGE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.te-IN.min.js" size="2310">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WaKRt6j6WguAdvR/XBGb7F9vCcLx4XkSf69oPAlaQeg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tg.min.js" size="1748">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Gikps1I9mU19JUJeLrAx8gq/YUgnpK8tX9oa6If+T38=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tg-Cyrl.min.js" size="1761">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yLTY4X1LfNiceWCXFrah8SzQfEGB3MIEYotTuZTxzAo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tg-Cyrl-TJ.min.js" size="1767">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ar9cuYRHtjKNEo4OfR4BMAVPNj8cTdglxIDzauAdkIM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.th.min.js" size="1966">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XjLovj8k4maKTOFt82vVEmsL24j09U6YJIEXVN8ct8c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.th-TH.min.js" size="1975">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>THmBHZmQ3+jTYNBXgqHkHiKtad6JfI/l1vZbNDw7NOc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tk.min.js" size="1625">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cs/H2/VOazwrGZCJwO/PS+sNNfJqJj0u+iuUezFQDnc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tk-TM.min.js" size="1634">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jt0+5PvaYuPnzaH9V1+v4btaNJD4d9Ep6Y/XSY9EnNI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tn.min.js" size="1723">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XFTOsRDC/SK22NyDlSU96+qoLh0ETmIWLltuIGa+ITo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tn-ZA.min.js" size="1732">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1o1x8eWciC6GVrXpWL/qrNDN5gxW/gCdEkHJtkW2yzg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tr.min.js" size="1621">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rEgJAA3Iq3NFYBztK+Cgzx8NHyUFTgVwPYYWobjh+MU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tr-TR.min.js" size="1630">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h64mswkfkjf4QH4Lb1hCaN17+rUFpUNY8fR0LppTAqE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tt.min.js" size="1796">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VNHrpgMwCyo7RU1h3P3hp11LdFUt664OaEGYskpq1Jc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tt-RU.min.js" size="1805">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CNeE+PN9gN1LOzZV1TMPLDsxYoJ83gVuq5+OfKf9wJY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tzm.min.js" size="1593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mkgfT3R3YhLcHvwbbmdpDiRmz/8aQPyc8w6PLSltPBA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tzm-Latn.min.js" size="1606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dXu6uL1gQSQmg0O1d4dOe96VRD8E5Iwhx4WV40joetk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.tzm-Latn-DZ.min.js" size="1612">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ss4YQT2dnhWJjCmIq1QgOh7TUVzX83ChuWWWIuKE0E4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ug.min.js" size="1977">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TOjQ9vDGg/fDrCXM0rsIJr1oY8mEGyVKKRqaz6kjGxM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ug-CN.min.js" size="1986">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o9qub0mWp7RXBMQ8nBvhPwshrJ5PsAhLgxwGU6m3w9I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.uk.min.js" size="1824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KjgyqZ98rAdm3Wf8WD3D6C34NhhLWQSGsE7qg5MKVvI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.uk-UA.min.js" size="1833">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O1i0sGhUUiM+WDCScHyXL9WMH89aGs/X3weDu21tAfg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ur.min.js" size="1808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n1kJVAeN0WWC0Xa37Zpl3NCJuVOe0nsnaDaFmybwL2E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.ur-PK.min.js" size="1817">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>459X25s/G/7VXWiSBWMEaKIL5ZQgGsaZLmysAP8/4M4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.uz.min.js" size="1650">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>glDH8AhKkxPZCE9Ahxgh96sU1CVMZP4tw6D9ajTt34I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.uz-Cyrl.min.js" size="1772">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rSetSc+gBvxl8nzmN7APUE41K+kJhGxZbOIUMZiN7sk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.uz-Cyrl-UZ.min.js" size="1778">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8B8fLiGiq59M7Q/8fVUctLXikyOPrBUjIcHzHJ/7WDQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.uz-Latn.min.js" size="1663">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D/esildjYH3vn5vWnALxm4kMqseO4JfwtLeRIgobIPE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.uz-Latn-UZ.min.js" size="1669">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mtHWnqV3xdFu8TnO0m4bHtXbaiLz9+F81XpJiD8yj1c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.vi.min.js" size="1782">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d10XkG+2OPXsrOLhROCU//jNBdK+Ku+m3oA4C7KNQS4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.vi-VN.min.js" size="1791">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>100X/ZV2ln6KyquH08lLtjMw58nkUGJ65TClHwYcNRk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.wo.min.js" size="1645">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KI/R1xnRAgIHSdMV4qK8BgitUKTUNDYldHp9cm0mWhQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.wo-SN.min.js" size="1654">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Rp+GSP3YJQb6Uck4RTTRbPUhV4uD2Gaz/2LTNip6v/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.xh.min.js" size="1664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+hXn6H1xxVT18wkaDBhs8raW1IQPpZznhXo1mkHxMEQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.xh-ZA.min.js" size="1673">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>klOseO+uv6Gzl+KC55qM8754CXEZJWqOESfEctPSRc8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.yo.min.js" size="1688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JyTqWJ1hdbfP0FJMCPVfSjNq8SYka4UZ/hd4G/JJxTY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.yo-NG.min.js" size="1697">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ePdSZhNYRrMXTcKr7Ppa15C/TYh3Wp78gmT/qgTPTwE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zh.min.js" size="1773">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c86gUc0CPgi+zqES9frEDpoYh3Ttfj+bNPm1q4RinHQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zh-CHS.min.js" size="1784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YKUasRVGMjESM0uPED4y8sp6YRgZOywUvI9rME2L/mQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zh-CHT.min.js" size="1786">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jOFGWydy9SqKkxXs+Z/m1nwxl9tfBxdcWZnBKy/vpGU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zh-CN.min.js" size="1782">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6J12ai4uVYJaYe0J2mt/fkOD90TNW0QyfL70x43xrqI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zh-Hans.min.js" size="1786">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WQhvYKE3GC8T3LWbozVzEgaO9zdTYpU4iQpavkLEpOQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zh-Hant.min.js" size="1788">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/gnYoNfVIPKtp1A6oCKBnmT1Z0Eg4qG51ZGdoMGLraQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zh-HK.min.js" size="1784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>65iHrgO2j1QNxwyt/2AtnwCqUvU+vUO1hxEEo0oCh2s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zh-MO.min.js" size="1784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>27ft0K1Bj0GvgDRRYrfXI1HiGNn4ENYBDAsRtFmGoFk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zh-SG.min.js" size="1773">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oyRFPYPllqyXoitpxu8Vg4rNYxiBFPN0Vu78x0fdWjg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zh-TW.min.js" size="1803">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zw6VHemZSVhQ5X43vZ0IBgG7TcIwQatayPiorzrD7n8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zu.min.js" size="1714">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bXnuSnNpasz4R3cUm+j7gSulOrt9E4LhBiWRDpExjz8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\cultures\kendo.culture.zu-ZA.min.js" size="1723">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cS/UgvBk1EhqgrjpEbFsXiE/VkX/ZsxhgpceFbuvd+o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\jquery.min.js" size="92631">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nDcPOkGCufdDghgwREPv8Oghyjy6qL7lkKOX7AKyYZc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.autocomplete.min.js" size="6886">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ViAOd/ycwa0qpugWqa24MgJyVOG7Wik6HnxPVmCS7b8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.binder.min.js" size="17906">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qRjtihYiwj5cKHWO22Xflqb5geS4+Im3Nmd2y2JqpsE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.button.min.js" size="2594">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IrJZpfL0uF9cAKcQSDdkTQJ1hBXdwRNEDHvL4v9Buws=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.calendar.min.js" size="16853">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V/MalqvG8qFSiQM67wWDSKt/ukHKFi9xJUFYA3YZYOA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.colorpicker.min.js" size="18493">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pMSVhieMOCkuR/EVxJFuAEfSrfkHnnnKPmZfDDZ6PSs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.columnmenu.min.js" size="10878">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8khdniamL2pDYtenuSFV9E8/94I08Fzxu/F6TxX3Roc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.combobox.min.js" size="8436">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7kgfvGFctMlwt6kzNO6uMagLcwqikBBNR2QQ1DXSxLM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.core.min.js" size="44321">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GdE9qlQoxozvJLxAEgqWk/hGCMmg2Wb02WN/n3J9Ifs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.data.min.js" size="43297">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ipcUzWAMmP+/OSwiaVggExESksgLjUUJzyOT01eXK2M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.data.odata.min.js" size="2451">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bS92/JtL7XZqwQdoD98bHy7pAFcLaiZEJmZcLQJ/U4E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.data.signalr.min.js" size="1806">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pNDdw5pXWFaA9Zp1DyB9Vc6dFTXjnyS+UcFoNhNnJRs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.data.xml.min.js" size="2843">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XWdy2B1FudPrwhq64zzJQqbK8kFrePWjUmgWIVZVggI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.datepicker.min.js" size="8034">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ooQJBsg16ysWGFSZc949s2kiAzoLNx0vZlloXlkJVok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.datetimepicker.min.js" size="8770">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p9kA3PEh0lqAiXzNMdKPB2HWHFg4A+ahfrzMTujgBNw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.draganddrop.min.js" size="10380">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ng7hM8E25AmmpmVQaH7AOI1SNg8nCeXdJav7AnP0fZA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.dropdownlist.min.js" size="8714">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JAxyMP9cnmA360ucVv8EP3/V1g8SIR9HwFOoyyLFqxI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.editable.min.js" size="4906">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZFve4jSWWcwTruzQcXmaoTd305Jqjc/G9rufAWHBhuM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.editor.min.js" size="111492">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EaSibwfJZVwd4w/tFOVOCF42VTKCZq46A/QantWJB9s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.filtermenu.min.js" size="12641">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RzpoMg6iZ5lNqWfR8wF6ziJ8gpS+388miiepBmUEwSc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.fx.min.js" size="18468">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>03IZwPmrjJw8a8KoQxT66vJVcmpoJMXzWTyaYe7yWBw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.grid.min.js" size="73715">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Vqc5KYLW/pwxCWhnIs6fJevhpgVEbYsyKLr+PCuB9xY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.groupable.min.js" size="7711">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HYdKc8Ttr3U9A2cgGeB8sY9d/9T8AdMyqQLcZAQ2CU8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.imagebrowser.min.js" size="17040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uJj4+BJwwRxhtvAqfhiIDEQT1vcaPG9aLrVagPphSVY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.list.min.js" size="12047">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aRDStKProWC1MM3kdlq7ok7HMRmu2F+YoMwIkFeg7ms=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.listview.min.js" size="8440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>USe051rf+w+rZJhWG7xre1mFdTW3F3/yGAyRChY5swI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.maskedtextbox.min.js" size="5407">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y+SiLE61D8uTTlym/VFBERZNCFBgk9Crl3rdgGQQ7Rk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.menu.min.js" size="16839">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sJhX0QxNdISWSdgffuD9pj+aVL2ddqm0TMTUfPnuRzs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.mobile.actionsheet.min.js" size="2190">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0/G6MtylMbqY9vItILbdOAVBUHS9WLb2UKR/6Z+6GZQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.mobile.application.min.js" size="8099">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OtUyci7pZp25KDhy9QwR1g5JMFF0fjJ7lVhERVJNask=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.mobile.loader.min.js" size="1803">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>brgSr5AY3cvmv+hF8TdsDb91pCnSpbeZ5S+bCc0sy24=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.mobile.pane.min.js" size="4876">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Jwz7ghuX/e1wIhCwd/LlJOCb3S9mQRw6lj3+BTcLibg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.mobile.popover.min.js" size="3608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XQUaVut8XnotM3tahdg2kUYuxapEleJ5H0YUIGGOTYM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.mobile.scroller.min.js" size="9317">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>L4iGfwKQO/yD0lvGs9f6MiWoMaxtXIrkCtLftH3EqJA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.mobile.shim.min.js" size="1813">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ouzCrEQ5hgkTXbrcQJmic4ia6sbnqqWeetIRDWIhEBA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.mobile.view.min.js" size="8190">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>erAiiI8YICfv13wuDcvyAry6LFXUXoI/NYpWhxAy4Ro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.multiselect.min.js" size="12745">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZQ3GdZew9sQae8PkeTzegLwOpENmychnE9xJrMLfmuc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.notification.min.js" size="5496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9xZxPrJ+PtuX/v5UYsNDvbxR60mXPQ8nZob/rBgId2U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.numerictextbox.min.js" size="8348">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eaLOPEcrUaSZouo4Eh9fpfk/O+FKPDiKy++eAGx8CgM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.pager.min.js" size="6328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PImAKFyRzBZmJdZW+RTT3yGsChZOsSHf6FnZ7sUD4Jw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.panelbar.min.js" size="13860">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KPg5PUG/P8tUr/hMSpR3cVdRxacD1TIJOp+NzbUGNcI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.popup.min.js" size="7256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o+NPUS6KWekApGH27+oUISXt0Tok5uQddV0RF5r4Rms=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.progressbar.min.js" size="6331">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4vkhTOxiUaqrDQV+aYQfX3FQQIqEFDHHjMdTBFDmhto=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.reorderable.min.js" size="3385">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SEVOq+vXg70HIc70zUjO2EZY/H5/jemDzs9DToPR/Uo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.resizable.min.js" size="2966">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lJVdbQJnmpvBdjqvzeetSqXZvUHK+k8SEFzOFRcUyiM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.router.min.js" size="5806">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NF4ZTtoxdW8XsQfA+bOWhwu00RjLXkIpdFCKcvVVYoo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.scheduler.agendaview.min.js" size="8089">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x+GphnTNfor0slsRngnAlUYLghDyobmHnn9ouqicN5E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.scheduler.dayview.min.js" size="24354">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MeXmkjvnCvFd/lOjuHeZZcS3zAjTepY+ZjT9SkbGmds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.scheduler.min.js" size="53929">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ck3YdkDUjn+TFwOPGEoTE9iWUmazeQC7XcZPL0Pg1Bg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.scheduler.monthview.min.js" size="14725">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5ffLRDEey9/Gvwan3AzWVaqudB80oiFSoZudv9J0iiQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.scheduler.recurrence.min.js" size="35347">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+pKt2j3LLhLjHRAqkifkeOBsL3+8mlcJt7bNw0X0WCc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.scheduler.view.min.js" size="25599">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z2hX8kbt11zuPOgIKvZTFVVNe2kfRWNwTvT13LRm8Fs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.selectable.min.js" size="5012">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cNgvEc3lkuN5tH/BXQ8OdPRmS+7uYHMcn7HGsgKhv4k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.slider.min.js" size="22582">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d0CoRaT9WUwOM7xNm19kZzRfk1JcXp6L3XIWFkiylD0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.sortable.min.js" size="6692">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5IDHXJHFKW2tCjm9rI37XQWn5Qenf/+7snwWuShc4Fw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.splitter.min.js" size="10483">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5bzUNi9pVNKVYbn4H4YL6DuUyu4V5i9yJ5Px77phdAg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.tabstrip.min.js" size="16348">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cHgDW09Iv3sANt4KKAA8EUGlF3zuuB8lzZIL7/qY3tk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.timepicker.min.js" size="10299">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QzOAPtjCgd3muQdRD1OF2nbLQP7z8woe332xaXvgQ0I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.timezones.min.js" size="321429">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UBqN1bLXLqmjFxx861pcfV9Qe4AcFsvl6vs4+oiQxSo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.tooltip.min.js" size="6146">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Wn1BbjvmVc4U1moD+ztLADblAykKf5Q/5UaA/attYCQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.treeview.min.js" size="26188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J7PNm5IGRnXTYkuZ9CQvonTqgokKkevXOJSjuG5nGd0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.upload.min.js" size="19902">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Lm2PsAkka7i6EZ/NMqdN7t7GTShr99XJx4KvnKbxDuE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.userevents.min.js" size="6776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ueiXjuWAQenhhXp30DitXhpNG1pgTHaXuo4mp9cCJlI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.validator.min.js" size="8070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Kjdvhhv6ARvh3Fjv/VQVyFLKwX6ErNpUS+bkmncE+i0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.view.min.js" size="3862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oc+nXkVH1ntjpoouDMnjn9SWgn2t9B1fiyc3zqMyqoE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.web.min.js" size="898918">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>K3wVE2Q0il3A0OLlcdhMJUGiT2zuoLqudpvNYs+HXic=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\kendo\2014.1.318\kendo.window.min.js" size="18702">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iq7KupRYNsQ4c8uz6WpIDmFOThsGGzvSLyU4UwDJJBQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Shop Management  System.exe.config" size="1383">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XwG+WuRSvcKUn/6BPci6DCdN1YcOaDp7yZPZ60pDQSw=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
