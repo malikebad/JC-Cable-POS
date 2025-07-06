@@ -19,7 +19,7 @@ The **Shop Management System** is a C# Windows Forms, .net application designed 
 2. **Clone the Repository**:
 
 ```
-git clone https://github.com/junaid-1013/Shop-Management-System.git
+git clone https://github.com/malikebad/JC-Cable-POS.git
 
 ```
 
@@ -67,11 +67,6 @@ Contributions are welcome! If you'd like to contribute to this project, follow t
 
 This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it.
 
-## Contact
-
-For any questions or feedback, reach out to the project owner, **junaid-1013**, via GitHub.
-
-Happy coding! 🚀👩‍💻
 
 
 
